@@ -2,30 +2,40 @@
  * Created by fandi on 2019/11/16 0016.
  */
 public class User {
-    private String username;
-    private int age;
+    private String uid;
+    private String loginname;
+    private String loginpass;
 
-    public String getUsername() {
-        return username;
+    public String getUid() {
+        return uid;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 
-    public int getAge() {
-        return age;
+    public String getLoginname() {
+        return loginname;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setLoginname(String loginname) {
+        this.loginname = loginname;
+    }
+
+    public String getLoginpass() {
+        return loginpass;
+    }
+
+    public void setLoginpass(String loginpass) {
+        this.loginpass = loginpass;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "username='" + username + '\'' +
-                ", age=" + age +
+                "uid='" + uid + '\'' +
+                ", loginname='" + loginname + '\'' +
+                ", loginpass='" + loginpass + '\'' +
                 '}';
     }
 }
