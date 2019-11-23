@@ -1,3 +1,5 @@
+package com.bea.model;
+
 /**
  * Created by fandi on 2019/11/16 0016.
  */
@@ -5,6 +7,15 @@ public class User {
     private String uid;
     private String loginname;
     private String loginpass;
+
+    public User() {
+    }
+
+    public User(String uid, String loginname, String loginpass) {
+        this.uid = uid;
+        this.loginname = loginname;
+        this.loginpass = loginpass;
+    }
 
     public String getUid() {
         return uid;

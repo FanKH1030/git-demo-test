@@ -1,3 +1,5 @@
+package com.bea.model;
+
 import java.util.HashMap;
 import java.util.Map;
 
