@@ -22,7 +22,9 @@ public abstract class RedPacketFrame extends JFrame {
     private static final long serialVersionUID = 1L;
     
 //    private static final String DIR = "day11-code\\pic";
-    private static final String DIR = "./";
+//    private static final String DIR = "D:\\JavaSoft\\IdeaProjects\\project-maven\\src\\main\\resources";
+//    private static final String DIR = ".\\target\\classes";
+    private static final String DIR = ".\\src\\main\\resources";
 
     private ArrayList<Integer> moneyList = null;
 
